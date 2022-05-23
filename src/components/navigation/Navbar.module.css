@@ -1,0 +1,44 @@
+.main {
+  background-color: rgba(131, 165, 126, 0.938);
+
+  /* max-width: 1200px; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+  /* padding: 15px 0; */
+  height: 9vh;
+}
+
+.main a {
+  display: inline-block;
+  color: #fff;
+  padding: 11px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.main a:hover {
+  color: rgb(199, 236, 198);
+  text-decoration: underline;
+}
+
+.active,
+.main div:hover {
+  background-color: rgba(202, 170, 170, 0.712);
+  border-radius: 15px;
+}
+
+.main div {
+  margin-right: auto;
+  margin-left: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.main div img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50%;
+}

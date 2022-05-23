@@ -1,0 +1,69 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  /* display: flex;
+  flex-direction: column; */
+  /* background-color: red; */
+  max-width: 55rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2.5rem 8rem 2rem;
+  margin: 0 auto;
+  padding: 5rem 7rem;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+.form {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+input {
+  font-family: inherit;
+  font-size: 1.1rem;
+  color: inherit;
+  border-right-width: initial;
+  border-left-width: initial;
+  border-right-color: initial;
+  border-left-color: initial;
+  width: 100%;
+  background-color: rgb(242, 242, 242);
+  box-sizing: border-box;
+  padding: 0.7rem 1.1rem;
+  border-style: solid none;
+  border-image: initial;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease 0s;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: #777;
+  font-weight: 100;
+}
+
+.btn {
+  background-color: rgb(85, 197, 122);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  font-weight: 400;
+  backface-visibility: hidden;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  transition: all 0.4s ease 0s;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}

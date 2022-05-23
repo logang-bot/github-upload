@@ -1,0 +1,87 @@
+.logo-icon {
+  width: 82px;
+  margin-right: auto;
+  stroke: #fff;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-nav {
+  padding: 12px;
+  display: flex;
+  max-width: 1600px;
+  align-items: center;
+  gap: 25px;
+  padding-top: 42px;
+}
+
+.hero-nav a {
+  display: inline-block;
+  color: #fff;
+  padding: 11px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero-nav a:hover {
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: underline;
+}
+
+.hero-header {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(17, 13, 13, 0.753),
+      rgba(245, 239, 239, 0.199)
+    ),
+    url("../../assets/img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg");
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+.hero-header-content {
+  max-width: 1200px;
+  /* margin: 0 auto; */
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  line-height: 1.2;
+  transform: translate(-50%, -50%);
+}
+
+.hero-header-slogan {
+  width: 50%;
+}
+
+.hero-header-slogan h1 {
+  font-size: 52px;
+  line-height: 1.05;
+  margin-bottom: 20px;
+}
+
+.hero-header-slogan p {
+  /* font-size: 20px; */
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.more-info a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300px;
+}
+
+.more-info {
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(67, 202, 67), rgb(90, 90, 156));
+}
